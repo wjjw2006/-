@@ -1,0 +1,5 @@
+
+<image src="../image/1.jpg" class="img"></image>
+<view class="title_class">模式选择</view>
+<button class="button1" bindtap='log_page2'>智能模式</button>
+<button class="button2" bindtap='log_page3'>手动模式</button>
