@@ -1,0 +1,6 @@
+<!--miniprogram/pages/index2/index2.wxml-->
+<image src="../image/1.jpg" class="img"></image>
+<view class="title_class">智能模式</view>
+<view class="text_class">当前台灯开关状态为：{{page_str}}</view>
+<button class="button2" bindtap='switch_light'>开/关灯</button>
+<button class="back" bindtap="backToFirst">退出当前模式</button>

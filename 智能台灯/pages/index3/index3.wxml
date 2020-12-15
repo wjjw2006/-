@@ -1,0 +1,10 @@
+<image src="../image/1.jpg" class="img"></image>
+<view class="title_class">手动模式</view>
+<view class="text_class">当前台灯开关状态为：{{page_str}}</view>
+<view class="text_class">当前台灯亮度为：{{page_light}}(最高为5)</view>
+<view class="button_class">
+  <button style="width: 120px" class="button3" bindtap='light_jia'>亮度增大</button>
+  <button style="width: 120px" class="button3" bindtap='light_jian'>亮度减小</button>
+</view>
+<button class="button2" bindtap='switch_light'>开/关灯</button>
+<button class="back" bindtap="backToFirst">退出当前模式</button>
